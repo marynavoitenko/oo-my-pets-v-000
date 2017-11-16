@@ -62,7 +62,7 @@ class Owner
     pets[:cats].map { |dog| dog.mood = "nervous" }
     pets[:fishes].map { |dog| dog.mood = "nervous" }
     pets.map {|type, pets| pets.clear }
-    pets = {:fishes => [], :dogs => [], :cats => []}
+    # pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
 end
