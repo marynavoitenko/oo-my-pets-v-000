@@ -19,4 +19,8 @@ class Owner
     @@all.size
   end
 
+  def species(species)
+    @species = sepcies
+  end
+
 end
