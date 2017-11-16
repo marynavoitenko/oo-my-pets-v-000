@@ -58,7 +58,9 @@ class Owner
   end
 
   def sell_pets
-    pets.map { |type, name| type.map { |name| name.mood = "nervous"}}
+    pets[:dogs].map { |dog| dog.mood = "nervous" }
+    pets[:cats].map { |dog| dog.mood = "nervous" }
+    pets[:fishes].map { |dog| dog.mood = "nervous" }
   end
 
 end
