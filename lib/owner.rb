@@ -32,8 +32,8 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def buy_fish(fish_name)
-    self.pets[:fishes] << fish_name
+  def buy_fish(fish)
+    self.pets[:fishes] << fish
   end
 
 end
