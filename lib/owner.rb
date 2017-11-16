@@ -28,8 +28,5 @@ class Owner
     return "I am a #{self.species}."
   end
 
-  def name(name)
-    @name = name
-  end
 
 end
