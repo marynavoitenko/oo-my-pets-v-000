@@ -28,5 +28,8 @@ class Owner
     return "I am a #{self.species}."
   end
 
-
+  def pets
+    @pets = {:fishes => [], :dogs => [], :cats => []}
+  end
+  
 end
